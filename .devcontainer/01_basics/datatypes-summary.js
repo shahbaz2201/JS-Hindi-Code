@@ -36,3 +36,30 @@ const myfunction = function(){
 }
 
 console.log(typeof outsideTemp);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack (Primitive), Heap (Non-Primitive)
+
+let myCountryname = "India"
+
+let anothername = myCountryname
+anothername = "Hindustan"
+
+console.log(myCountryname);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "shahbaz@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
